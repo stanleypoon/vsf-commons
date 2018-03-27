@@ -1,0 +1,3 @@
+#!/bin/bash
+
+spark-shell --conf "spark.driver.extraClassPath=./target/scala-2.11/classes" --jars `ls target/scala-2.11/*assembly*.jar`
